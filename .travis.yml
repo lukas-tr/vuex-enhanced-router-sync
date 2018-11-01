@@ -9,8 +9,17 @@ cache:
   directories:
     - node_modules
 
+before_install:
+  - npm install codecov -g
+
 install:
   - npm install
 
+before_script:
+  - tsc -p . --sourcemap
+
 script:
   - npm test
+
+after_success:
+  - codecov
