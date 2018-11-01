@@ -1,0 +1,24 @@
+{
+  "name": "vuex-enhanced-router-sync",
+  "version": "1.0.0",
+  "description": "This package replaces vuex-router-sync and adds some useful features.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukas-tr/vuex-enhanced-router-sync.git"
+  },
+  "keywords": [
+    "vuex",
+    "vue-router",
+    "vue"
+  ],
+  "author": "lukas-tr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukas-tr/vuex-enhanced-router-sync/issues"
+  },
+  "homepage": "https://github.com/lukas-tr/vuex-enhanced-router-sync#readme"
+}
