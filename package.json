@@ -4,6 +4,7 @@
   "description": "This package replaces vuex-router-sync and adds some useful features.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
