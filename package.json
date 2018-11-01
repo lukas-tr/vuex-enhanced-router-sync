@@ -7,7 +7,8 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,9 @@
   },
   "homepage": "https://github.com/lukas-tr/vuex-enhanced-router-sync#readme",
   "devDependencies": {
+    "@types/jest": "^23.3.9",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
     "tslint": "^5.11.0",
     "typescript": "^3.1.5"
   }
