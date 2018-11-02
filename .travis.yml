@@ -19,7 +19,8 @@ before_script:
   - tsc -p . --sourcemap
 
 script:
-  - npm test
+  - npm run test
+  - npm run lint
 
 after_success:
   - codecov
