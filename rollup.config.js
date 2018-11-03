@@ -1,4 +1,5 @@
 import typescript from "rollup-plugin-typescript2";
+import { uglify } from "rollup-plugin-uglify";
 
 module.exports = {
   input: "src/index.ts",
@@ -6,7 +7,10 @@ module.exports = {
     file: "dist/index.js",
     format: "umd",
     name: "vuexEnhancedRouterSync",
-    sourcemap: true
+    sourcemap: true,
+    globals: {
+      vue: "Vue"
+    }
   },
   plugins: [
     typescript({
@@ -16,6 +20,9 @@ module.exports = {
           inlineSourceMap: false
         }
       }
+    }),
+    uglify({
+      sourcemap: true
     })
   ]
 };

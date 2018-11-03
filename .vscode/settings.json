@@ -1,5 +1,6 @@
 {
     "tslint.autoFixOnSave": true,
     "tslint.enable": true,
-    "tslint.run": "onSave"
+    "tslint.run": "onSave",
+    "prettier.tslintIntegration": true
 }
