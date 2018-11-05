@@ -4,8 +4,10 @@
 
 [![Travis (.com) branch](https://img.shields.io/travis/com/lukas-tr/vuex-enhanced-router-sync/master.svg)](https://travis-ci.com/lukas-tr/vuex-enhanced-router-sync)
 [![Codecov branch](https://img.shields.io/codecov/c/github/lukas-tr/vuex-enhanced-router-sync/master.svg)](https://codecov.io/gh/lukas-tr/vuex-enhanced-router-sync)
+[![codebeat badge](https://codebeat.co/badges/ab47d01b-9a17-43e0-b235-ace83771923d)](https://codebeat.co/projects/github-com-lukas-tr-vuex-enhanced-router-sync-master)
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/lukas-tr/vuex-enhanced-router-sync/blob/master/LICENSE)
-![npm type definitions](https://img.shields.io/badge/types-TypeScript-blue.svg)
+![type definitions](https://img.shields.io/badge/types-TypeScript-blue.svg)
+![npm](https://img.shields.io/npm/v/vuex-enhanced-router-sync.svg)
 
 </div>
 
@@ -38,6 +40,8 @@ sync(store, router, "route"); // only supply moduleName
 // or
 sync(store, router); // default options
 ```
+
+You should not modify the store state. Instead, use `$router.push()` and `$router.go()` to update the current route.
 
 ### Parameters
 
